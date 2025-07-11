@@ -272,7 +272,7 @@ const Portfolio = () => {
               className="mb-8"
             >
               <motion.h1 
-                className="text-4xl sm:text-5xl lg:text-6xl text-white mb-4"
+                className="text-3xl sm:text-4xl lg:text-5xl text-white mb-4"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
                 style={{ fontFamily: "'Inter', 'Roboto', sans-serif" }}

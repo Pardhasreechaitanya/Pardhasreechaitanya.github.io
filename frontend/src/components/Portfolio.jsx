@@ -301,6 +301,7 @@ const Portfolio = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
                 className="text-xl sm:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed"
+                style={{ fontFamily: "'Poppins', 'Arial', sans-serif" }}
               >
                 <motion.span
                   animate={{ 
@@ -312,12 +313,12 @@ const Portfolio = () => {
                     ]
                   }}
                   transition={{ duration: 4, repeat: Infinity }}
-                  className="bg-clip-text text-transparent"
+                  className="bg-clip-text text-transparent font-medium"
                 >
                   Transforming Geographic Data into Intelligence
                 </motion.span>
                 <br />
-                <span className="text-lg text-white/70">
+                <span className="text-lg text-white/70 font-light">
                   Civil Engineer • Data Scientist • GIS Specialist
                 </span>
               </motion.div>

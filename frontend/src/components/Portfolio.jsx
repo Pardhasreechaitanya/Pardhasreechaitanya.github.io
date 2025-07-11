@@ -272,15 +272,16 @@ const Portfolio = () => {
               className="mb-8"
             >
               <motion.h1 
-                className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-4"
+                className="text-4xl sm:text-5xl lg:text-6xl text-white mb-4"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
+                style={{ fontFamily: "'Inter', 'Roboto', sans-serif" }}
               >
                 <motion.span
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
-                  className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent font-bold"
+                  className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent font-semibold"
                 >
                   PARDHASREE
                 </motion.span>
@@ -288,7 +289,7 @@ const Portfolio = () => {
                   initial={{ opacity: 0, x: 50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.6 }}
-                  className="block bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-bold"
+                  className="block bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-semibold"
                 >
                   CHAITANYA
                 </motion.span>

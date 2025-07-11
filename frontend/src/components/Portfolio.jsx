@@ -827,18 +827,11 @@ const Portfolio = () => {
             className="text-center mb-16"
           >
             <motion.h2 
-              className="text-5xl font-bold text-white mb-6"
+              className="text-5xl font-bold text-white mb-16"
               whileHover={{ scale: 1.05 }}
             >
               Let's <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Connect</span>
             </motion.h2>
-            <motion.div 
-              className="w-32 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 mx-auto mb-8"
-              initial={{ width: 0 }}
-              whileInView={{ width: 128 }}
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-            />
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
               I'm always open to discussing new opportunities, collaborations, or just connecting with fellow professionals. Let's create something amazing together!
             </p>

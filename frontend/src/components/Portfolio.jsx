@@ -317,10 +317,6 @@ const Portfolio = () => {
                 >
                   Transforming Geographic Data into Intelligence
                 </motion.span>
-                <br />
-                <span className="text-lg text-white/70 font-light">
-                  Civil Engineer • Data Scientist • GIS Specialist
-                </span>
               </motion.div>
             </motion.div>
 

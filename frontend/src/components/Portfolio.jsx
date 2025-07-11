@@ -295,7 +295,7 @@ const Portfolio = () => {
                 </motion.span>
               </motion.h1>
               
-              {/* Animated subtitle */}
+              {/* Simple subtitle */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -303,20 +303,9 @@ const Portfolio = () => {
                 className="text-xl sm:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed"
                 style={{ fontFamily: "'Poppins', 'Arial', sans-serif" }}
               >
-                <motion.span
-                  animate={{ 
-                    background: [
-                      "linear-gradient(45deg, #10b981, #06b6d4)",
-                      "linear-gradient(45deg, #06b6d4, #8b5cf6)",
-                      "linear-gradient(45deg, #8b5cf6, #ec4899)",
-                      "linear-gradient(45deg, #ec4899, #10b981)"
-                    ]
-                  }}
-                  transition={{ duration: 4, repeat: Infinity }}
-                  className="bg-clip-text text-transparent font-medium"
-                >
-                  Transforming Geographic Data into Intelligence
-                </motion.span>
+                <span className="text-lg text-white/70 font-light">
+                  Civil Engineer • Data Scientist • GIS Specialist
+                </span>
               </motion.div>
             </motion.div>
 

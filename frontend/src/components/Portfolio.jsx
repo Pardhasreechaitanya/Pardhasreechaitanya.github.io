@@ -421,13 +421,6 @@ const Portfolio = () => {
             >
               About <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Me</span>
             </motion.h2>
-            <motion.div 
-              className="w-32 h-1 bg-gradient-to-r from-emerald-400 to-cyan-400 mx-auto mb-8"
-              initial={{ width: 0 }}
-              whileInView={{ width: 128 }}
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-            />
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">

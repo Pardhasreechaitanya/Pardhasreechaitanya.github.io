@@ -764,18 +764,11 @@ const Portfolio = () => {
             className="text-center mb-16"
           >
             <motion.h2 
-              className="text-5xl font-bold text-white mb-6"
+              className="text-5xl font-bold text-white mb-16"
               whileHover={{ scale: 1.05 }}
             >
               Technical <span className="bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">Skills</span>
             </motion.h2>
-            <motion.div 
-              className="w-32 h-1 bg-gradient-to-r from-teal-400 to-cyan-400 mx-auto mb-8"
-              initial={{ width: 0 }}
-              whileInView={{ width: 128 }}
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-            />
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
